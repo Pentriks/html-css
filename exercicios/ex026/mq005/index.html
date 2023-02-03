@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <i id="burguer" class="material-icons" onclick="clickMenu()" >menu</i>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Query</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis quas officiis nostrum magni architecto eveniet earum, dolor saepe voluptatibus veniam soluta ipsum debitis mollitia quod, ipsam eum quae laboriosam! Tempora! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio, libero aspernatur natus corporis dolor a dolores nulla optio impedit consequatur beatae perspiciatis, consequuntur qui fuga autem nemo hic. Eaque, quod?</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, perspiciatis ex iusto assumenda voluptatum animi tenetur aliquid alias iste dolor amet nulla, ut, quia officiis doloremque quae cumque placeat! Est! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum rem a temporibus eligendi. Vitae praesentium tempore aliquam sed reiciendis dolores nam, quibusdam repudiandae possimus expedita nemo, quia deserunt, exercitationem odit!</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique maxime, modi voluptatibus inventore aut eveniet sed officia. Sed culpa officiis asperiores? Ab necessitatibus accusamus molestias sunt pariatur sint repellendus aperiam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem eius libero dolor ad consequatur assumenda mollitia eos voluptate repudiandae, officia sit nobis ducimus ratione ex. Ducimus, est voluptatem. Rem, omnis! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus illum corporis ad recusandae totam dolorum dolores asperiores natus eaque enim odit tempora explicabo suscipit praesentium, eum dignissimos! Dolor, doloribus ad.</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        } 
+    </script>
+</body>
+</html>
